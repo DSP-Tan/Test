@@ -1,0 +1,5 @@
+# docker run <options> <image> <command>
+docker run -it fart bash
+# i means interactive, t is tty
+
+bq load --source_format=NEWLINE_DELIMITED_JSON quotes.quotesTable gs://bigmoney-quotes/quotes.json schema.json
